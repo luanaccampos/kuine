@@ -30,6 +30,11 @@ Software educacional para ensino de minimização de expressões lógicas.
 - `set getTermos()`: Retorna os termos.
 - `dict getGrafo()`: Retorna o grafo.
 
+## setCoverGreedy
+
+### Atributos
+
+
 
 
 
