@@ -34,6 +34,30 @@ Software educacional para ensino de minimização de expressões lógicas.
 
 ### Atributos
 
+- `list resposta`: Lista que armazena a resposta.
+
+### Métodos
+
+- `setCoverGreedy(list U, list S)`: Constroi um objeto que resolve o problema de cobertura de conjuntos de forma gulosa. Recebe o universo U
+de termos e uma lista de sets que poderão ser utilizados na solução.
+- `list getResposta()`: Retorna a resposta.
+
+## setCoverPD
+
+### Atributos
+
+- `list S`: Lista dos sets.
+- `dict pd`: Dicionário utiizado para armazenar as computações feitas pelo o algoritmo.
+- `int n`: Inteiro que armazena a quantidade de sets.
+- `list resposta`: Lista que armazena a resposta.
+
+### Métodos
+
+- `setCoverPD(list U, list S)`: Constroi um objeto que resolve o problema de cobertura de conjuntos utilizando programação dinâmica. Recebe o universo U
+de termos e uma lista de sets que poderão ser utilizados na solução. 
+- `int cover(int i, set s, int n)`: Método recursivo que encontra a solução com menor custo para o problema.
+- `list getResposta()`: Retorna a resposta.
+
 
 
 
