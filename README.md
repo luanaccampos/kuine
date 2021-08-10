@@ -1,9 +1,7 @@
-# kuine
-Software educacional para ensino de minimização de expressões lógicas.
-
+# Kuine
+Software educacional para ensino de minimização de expressões lógicas. A aplicação foi feita utilizando Python e PyQt5.
 
 # Documentação
-
 
 ## Quine
 
@@ -20,7 +18,7 @@ Software educacional para ensino de minimização de expressões lógicas.
 
 ### Métodos
 
-- `Quine(list termos, int n, bool minimal)`: Constroi um objeto Quine com os termos e número de variáveis recebidos.
+- `Quine(list termos, int n, bool minimal = True)`: Constroi um objeto Quine com os termos e número de variáveis recebidos. Por padrão a resposta será minimal, se setado como falso a resposta será uma aproximação.
 - `int bitsLigados(str s)`: Recebe uma string de um número representado na forma binária. Retorna a quantidade de bits ligados.
 - `tuple match(str s1, str s1)`: Método que recebe dois termos. Caso seja possível a minimização dos dois termos, o método retornará verdadeiro e a nova combinação dos termos. Falso, caso contrário.
 - `str toLiteral(str s)`: Recebe termo em forma binária e o transforma em forma literal.
@@ -57,10 +55,3 @@ de termos e uma lista de sets que poderão ser utilizados na solução.
 de termos e uma lista de sets que poderão ser utilizados na solução. 
 - `int cover(int i, set s, int n)`: Método recursivo que encontra a solução com menor custo para o problema.
 - `list getResposta()`: Retorna a resposta.
-
-
-
-
-
-
-
