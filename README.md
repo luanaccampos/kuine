@@ -55,3 +55,41 @@ de termos e uma lista de sets que poderão ser utilizados na solução.
 de termos e uma lista de sets que poderão ser utilizados na solução. 
 - `int cover(int i, set s, int n)`: Método recursivo que encontra a solução com menor custo para o problema.
 - `list getResposta()`: Retorna a resposta.
+
+## hoverLabel
+
+### Sinais
+
+- `mouseMove`: Sinal é emitido quando o cursos do mouse está em movimento sobre a label.
+- `mouseLeave`: Sinal é emitido quando o cursor do mouse deixa a label.
+
+### Métodos
+
+- `hoverLabel(QWidget pai, str s)`: Constroi uma label customizada que herda de QLabel, dado o pai e o texto.
+- `mouseMoveEvent`: Método sobrecarregado responsável por emitir o sinal `mouseMove`.
+- `leaveEvent`: Método sobrecarregado responsábel por emitir o sinal `mouseLeave`.
+- `on`: Método utilizado como slot para modificar a cor de fundo da label.
+- `off`: Método utilizado como slot para modificar a cor de fundo para a cor original.
+
+## janelaInicial
+
+### Atributos
+
+- `bool arquivo`: Atributo atua como uma flag para sinalizar se existe um arquivo carregado.
+- `QMessageBox msg`: QMessageBox utilizada para exibir mensagens de erro.
+- `QWidget centralWidget`: QWidget utilizado como widget principal da janela.
+- `QVBoxLayout layout`: Layout vertical do widget principal.
+
+### Métodos
+
+- `janelaInicial()`: Controi uma janela que herda de QMainWindow.
+- `line()`: Método que adiciona um QLineEdit no widget principal.
+- `btns()`: Método que adiciona os botões Karnaugh e Quine no widget principal.
+- `open()`: Método responsável por carregar e processar a tabela verdade fornecida pelo usuário.
+- `valido()`: Método auxiliar para verificar se o arquivo fornecido é válido.
+- `openKarnaugh()`: Método que atua como slot conectado ao botão Karnaugh. Quando acionado irá abrir uma nova janela com o Mapa de Karnaugh da entrada.
+- `openQuine()`: Método que atua como slot conectado ao botão Quine. Quando acionado irá abrir uma nova janela com o passo a passo do algoritmo Quine McCluskey.
+- `recebeSinal()`: Método que atua como slot conectado às novas janelas criadas. Quando acionado irá exibir a `janelaInicial`.
+
+
+
