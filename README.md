@@ -113,6 +113,6 @@ de termos e uma lista de sets que poderão ser utilizados na solução.
 - `bool isBottomRight(list m, int i, int j)`: Método que dado um agrupamento e a posição de um termo retornará verdadeiro se for bottomRight, falso caso contrário.
 - `bool isBottomLeft(list m, int i, int j)`: Método que dado um agrupamento e a posição de um termo retornará verdadeiro se for bottomLeft, falso caso contrário. Um exemplo pode ser visto na imagem a seguir.
 
-
+![](exemplo.png)
 
 
