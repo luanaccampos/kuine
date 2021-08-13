@@ -129,4 +129,12 @@ As classes janela3var e janela4var seguem o mesmo padrão da classe acima.
 - `QTabWidget tabWidget`: QTabWidget utilizado para adicionar as tabs criadas.
 - `dict hL`: Dicionário para armazenar as hoverLabels adicionadas na janela.
 
+### Métodos
+
+- `janelaQuine(Quine quine, QWidget parent)`: Constroi uma janela que herda de QMainWindow. O objeto Quine fornecido é utilizado para construir o passo a passo do algoritmo Quine McCluskey.
+- `void Tabelas()`: Método constroi a tab Tabelas e a adiciona em `tabWidget`.
+- `QWidget BinarioSetW(QWidget parent)`: Método que retorna um QWidget que contém duas labels (Binário e Set).
+- `QLabel newLabel(QWidget parent, str text, width = 150)`: Método que retorna uma label com o texto fornecido. Por padrão a largura mínima será de 150 px, sendo possível modificar atráves do parâmetro `width`.
+- `tuple QuadroW(dict quadro, QWidget parent)`:
+
 
