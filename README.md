@@ -113,4 +113,20 @@ de termos e uma lista de sets que poderão ser utilizados na solução.
 - `bool isBottomRight(list m, int i, int j)`: Método que dado um agrupamento e a posição de um termo retornará verdadeiro se for bottomRight, falso caso contrário.
 - `bool isBottomLeft(list m, int i, int j)`: Método que dado um agrupamento e a posição de um termo retornará verdadeiro se for bottomLeft, falso caso contrário. É possível ver um exemplo na imagem a seguir:
 
-![](exemplo.png)
+<p align="center">
+  <img src="https://github.com/luanaccampos/kuine/blob/main/exemplo.png">
+</p>
+
+As classes janela3var e janela4var seguem o mesmo padrão da classe acima.
+
+## janelaQuine
+
+### Atributos
+
+- `Quine q`: Atributo que armazena o objeto Quine.
+- `QWidget centralwidget`: QWidget utilizado como widget principal da janela.
+- `QVBoxLayout verticalLayout`: Layout do widget principal.
+- `QTabWidget tabWidget`: QTabWidget utilizado para adicionar as tabs criadas.
+- `dict hL`: Dicionário para armazenar as hoverLabels adicionadas na janela.
+
+
