@@ -114,7 +114,7 @@ de termos e uma lista de sets que poderão ser utilizados na solução.
 - `bool isBottomLeft(list m, int i, int j)`: Método que dado um agrupamento e a posição de um termo retornará verdadeiro se for bottomLeft, falso caso contrário. É possível ver um exemplo na imagem a seguir:
 
 <p align="center">
-  <img src="https://github.com/luanaccampos/kuine/blob/main/exemplo.png">
+  <img width=230 height=150 src="https://github.com/luanaccampos/kuine/blob/main/exemplo.png">
 </p>
 
 As classes janela3var e janela4var seguem o mesmo padrão da classe acima.
@@ -142,5 +142,12 @@ As classes janela3var e janela4var seguem o mesmo padrão da classe acima.
 - `QWidget ImpW(list imp, bool f)`: Método retorna um QWidget que contém os implicantes recebidos. O paramêtro f é utilizado para definir a cor de fundo do widget.
 - `QWidget RespostaW()`: Método retorna QWidget que contém a resposta do algoritmo.
 - `void backButton()`: Método que adiciona botão de voltar na `janelaQuine`.
+
+
+<p align="center">
+  <img width=350 height=350 src="https://github.com/luanaccampos/kuine/blob/main/exemplo2.png">
+</p>
+
+
 
 
