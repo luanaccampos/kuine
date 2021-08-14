@@ -132,9 +132,15 @@ As classes janela3var e janela4var seguem o mesmo padrão da classe acima.
 ### Métodos
 
 - `janelaQuine(Quine quine, QWidget parent)`: Constroi uma janela que herda de QMainWindow. O objeto Quine fornecido é utilizado para construir o passo a passo do algoritmo Quine McCluskey.
-- `void Tabelas()`: Método constroi a tab Tabelas e a adiciona em `tabWidget`.
+- `void Tabelas()`: Método constroi a tab *Tabelas* e a adiciona em `tabWidget`.
 - `QWidget BinarioSetW(QWidget parent)`: Método que retorna um QWidget que contém duas labels (Binário e Set).
 - `QLabel newLabel(QWidget parent, str text, width = 150)`: Método que retorna uma label com o texto fornecido. Por padrão a largura mínima será de 150 px, sendo possível modificar atráves do parâmetro `width`.
-- `tuple QuadroW(dict quadro, QWidget parent)`:
+- `tuple QuadroW(dict quadro, QWidget parent)`: Método que retorna uma tupla contendo o QWidget e a quantidade de linhas utilizadas para constuir o quadro recebido.
+- `QWidget BoxW(list termos, QWidget parent)`: Método que retorna um QWidget que contém uma *caixa* de um quadro. A caixa é construída através dos termos recebidos.
+- `void Implicantes()`: Método constriu a tab *Implicantas* e a adiciona em `tabWidget`.
+- `QWidget termosW(list termos)`: Método retorna um QWidget com layout vertical que contém os termos de entrada.
+- `QWidget ImpW(list imp, bool f)`: Método retorna um QWidget que contém os implicantes recebidos. O paramêtro f é utilizado para definir a cor de fundo do widget.
+- `QWidget RespostaW()`: Método retorna QWidget que contém a resposta do algoritmo.
+- `void backButton()`: Método que adiciona botão de voltar na `janelaQuine`.
 
 
