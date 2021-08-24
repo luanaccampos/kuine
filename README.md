@@ -5,7 +5,7 @@ Software educacional para ensino de minimização de expressões lógicas. A apl
 
 ## Windows
 
-Instale através do executável `kuine_installer`.
+Instale através do executável [`kuine_installer`](https://github.com/luanaccampos/kuine/blob/main/windows/kuine_installer.exe).
 
 ## Linux
 
