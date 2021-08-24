@@ -1,6 +1,3 @@
-# Kuine
-Software educacional para ensino de minimização de expressões lógicas. A aplicação foi feita utilizando Python e PyQt5.
-
 # Instalação
 
 ## Windows
