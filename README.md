@@ -3,6 +3,12 @@ Software educacional para ensino de minimização de expressões lógicas. A apl
 
 # Instalação
 
+## Windows
+
+Instale através do executável `kuine_installer`.
+
+## Linux
+
 # Software
 
 A aplicação suporta a entrada de tabelas verdades em formato csv/tsv. O Karnaugh suporta apenas entradas de 2 até 4 variáveis.
