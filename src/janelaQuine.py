@@ -56,7 +56,9 @@ class janelaQuine(QMainWindow):
 		"border-radius: 7px;}" + 
 		"QScrollBar::add-line:vertical{" + 
 		"border: none;" + 
-		"background: none;}" + 
+		"background: none;}" +
+		"QScrollBar::sub-page{background-color: rgb(215, 206, 199);}" +
+		"QScrollBar::add-page{background-color: rgb(215, 206, 199);}" +
 		"QScrollBar::sub-line:vertical{" + 
 		"border: none;" + 
 		"background: none;}" + 
