@@ -1,0 +1,1 @@
+Executável para linux.
