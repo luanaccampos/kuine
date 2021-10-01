@@ -21,3 +21,11 @@ A aplicação suporta a entrada de tabelas verdades em formato csv/tsv. O Karnau
 <p align="center">
   <img width=400 height=300 src="https://github.com/luanaccampos/kuine/blob/main/imgs/exemplo6.png">
 </p>
+
+<p align="center">
+  <img width=500 height=400 src="https://github.com/luanaccampos/kuine/blob/main/imgs/exemplo7.png">
+</p>
+
+<p align="center">
+  <img width=500 height=350 src="https://github.com/luanaccampos/kuine/blob/main/imgs/exemplo8.png">
+</p>
