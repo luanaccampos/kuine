@@ -6,7 +6,7 @@ Instale através do executável [`kuine_installer`](https://github.com/luanaccam
 
 # Software
 
-A aplicação suporta a entrada de tabelas verdades em formato csv/tsv. O Karnaugh suporta apenas entradas de 2 até 4 variáveis.
+A aplicação suporta a entrada de tabelas verdades em formato csv/tsv. Veja um [`exemplo`](https://github.com/luanaccampos/kuine/blob/main/windows/tabela4var.csv) de tabela verdade de quatro variáveis. O Karnaugh suporta apenas entradas de 2 até 4 variáveis.
 
 <p align="center">
   <img width=400 height=200 src="https://github.com/luanaccampos/kuine/blob/main/imgs/exemplo4.png">
