@@ -4,6 +4,12 @@
 
 Instale através do executável [`kuine_installer`](https://github.com/luanaccampos/kuine/blob/main/windows/kuine_installer.exe).
 
+## Linux
+
+Descompacte o arquivo [`linux.zip`](https://github.com/luanaccampos/kuine/blob/main/linux/linux.zip) e execute o comando:
+
+    ./kuine
+
 # Software
 
 A aplicação suporta a entrada de tabelas verdades em formato csv/tsv. Veja um [`exemplo`](https://github.com/luanaccampos/kuine/blob/main/windows/tabela4var.csv) de tabela verdade de quatro variáveis. O Karnaugh suporta apenas entradas de 2 até 4 variáveis.
